@@ -1,0 +1,23 @@
+{
+  "datas": {
+    "popok": {
+      "mamypokoM20": {
+        "merk": "MAMYPOKO",
+        "ukuran": "M20",
+        "harga": "35.000"
+      }
+    },
+    "lain2": {
+      "tisunice": {
+        "merk": "Tisu Nice",
+        "ukuran": "",
+        "harga": "7.000"
+      },
+      "kantongasi": {
+        "merk": "Kantong Asi",
+        "ukuran": "100ml & 120ml",
+        "harga": "25.000"
+      }
+    }
+  }
+}
