@@ -34,8 +34,28 @@
         </div>
       </div> -->
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-6 d-flex flex-row bd-highlight">
           <button type="button" class="btn btn-outline-secondary btn-sm active" style="display: inline;">Semua Popok</button>
+          <button type="button" style="display: inline;" class="btn btn-outline-secondary btn-sm mx-4">Selain Popok</button>
+        </div>
+        <div class="col-lg-6 d-flex flex-row-reverse bd-highlight">
+          <div class="dropdown" style="display: inline;">
+            <button class="btn btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Merek Popok
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Mamypoko Perekat</a></li>
+              <li><a class="dropdown-item" href="#">Mamypoko Pants</a></li>
+              <li><a class="dropdown-item" href="#">Mamypoko Minipack</a></li>
+              <li><a class="dropdown-item" href="#">Sweety Bronze</a></li>
+              <li><a class="dropdown-item" href="#">Sweety Silver Pants</a></li>
+              <li><a class="dropdown-item" href="#">Merries Pants</a></li>
+              <li><a class="dropdown-item" href="#">Happy Nappy</a></li>
+              <li><a class="dropdown-item" href="#">Baby Happy Pants</a></li>
+              <li><a class="dropdown-item" href="#">Smile Baby Pants</a></li>
+              <li><a class="dropdown-item" href="#">Mamylove Pants</a></li>
+            </ul>
+          </div>
           <div class="dropdown mx-4" style="display: inline;">
             <button class="btn btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Ukuran Popok
@@ -47,7 +67,6 @@
               <li><a class="dropdown-item" href="#">S (Small)</a></li>
             </ul>
           </div>
-          <button type="button" style="display: inline;" class="btn btn-outline-secondary btn-sm">Selain Popok</button>
         </div>
       </div>
     </div>
@@ -144,12 +163,13 @@
           for( let i = 0; i < popok.length; i++ ) {
             // console.log(popok[i]);
             $('.popok .row').append(`
-              <div class="col-lg-3">
+              <div class="col-lg-2">
                 <div class="card mb-4">
-                  <img src="#" class="card-img-top" alt="${popok[i].gambar}">
+                  <img src="gambar/${popok[i].gambar}" class="card-img-top" alt="${popok[i].gambar}">
                   <div class="card-body">
-                    <h5 class="card-title"> ${popok[i].merk} - ${popok[i].ukuran}</h5>
-                    <p class="card-text">Rp ${popok[i].harga}</p>
+                    <h5 class="card-title"> ${popok[i].merk}</h5>
+                    <span class="card-text">Ukuran : ${popok[i].ukuran}</span><br>
+                    <span class="card-text">Harga : Rp ${popok[i].harga}</span>
                   </div>
                 </div>
               </div>

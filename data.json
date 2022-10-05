@@ -1,38 +1,61 @@
 {
     "popok": [
       {
-        "merk": "popok1",
-        "gambar": "gambar1.jpg",
-        "ukuran": "XL",
-        "harga": "10.000"
+        "merk": "MAMYPOKO PEREKAT",
+        "gambar": "mamypokoperekat-nbs44.jpeg",
+        "ukuran": "NewBornS44",
+        "harga": "57.000"
       },
       {
-        "merk": "popok2",
-        "gambar": "gambar2.jpg",
-        "ukuran": "L",
-        "harga": "20.000"
+        "merk": "MAMYPOKO PEREKAT",
+        "gambar": "mamypokoperekat-m40.jpeg",
+        "ukuran": "M40",
+        "harga": "62.000"
       },
       {
-        "merk": "popok3",
-        "gambar": "gambar3.jpg",
-        "ukuran": "M",
-        "harga": "30.000"
+        "merk": "MAMYPOKO PANTS",
+        "gambar": "mamypokopants-s40.jpeg",
+        "ukuran": "S40",
+        "harga": "49.000"
       },
       {
-        "merk": "popok4",
-        "gambar": "gambar4.jpg",
-        "ukuran": "S",
-        "harga": "40.000"
+        "merk": "MAMYPOKO PANTS",
+        "gambar": "mamypokopants-m34.jpeg",
+        "ukuran": "M34",
+        "harga": "49.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "gambar": "mamypokopants-l30.jpeg",
+        "ukuran": "L30",
+        "harga": "49.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "gambar": "mamypokopants-xl26.jpeg",
+        "ukuran": "XL26",
+        "harga": "58.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "gambar": "mamypokopants-xxl24.jpeg",
+        "ukuran": "XXL24",
+        "harga": "60.000"
       }
     ],
     "lain2": [
       {
-        "merk": "Tisu Nice",
+        "merk": "TISU NICE",
         "ukuran": "",
         "harga": "7.000"
       },
       {
-        "merk": "Kantong Asi",
+        "merk": "TISU PASEO",
+        "ukuran": "",
+        "harga": "11.000"
+      },
+      {
+        "merk": "KANTONG ASI",
         "ukuran": "100ml & 120ml",
         "harga": "25.000"
       }
