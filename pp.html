@@ -19,6 +19,7 @@
           <div class="navbar-nav">
             <a class="nav-link mx-3" href="index.html">Home</a>
             <a class="nav-link active" href="produk.html">Produk</a>
+            <a class="nav-link active" href="p2.html">P2</a>
           </div>
         </div>
       </div>
@@ -35,7 +36,7 @@
       </div> -->
       <div class="row">
         <div class="col-lg-12">
-          <button type="button" class="btn btn-outline-secondary btn-sm active" style="display: inline;">Semua Popok</button>
+          <button type="button" class="btn btn-outline-secondary btn-sm" style="display: inline;">Semua Popok</button>
           <div class="dropdown mx-4" style="display: inline;">
             <button class="btn btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Ukuran Popok
@@ -55,24 +56,26 @@
 
 
     <!-- card -->
-    <section class="popok">
+    <section>
       <div class="container my-4">
         <div class="row">
-          <!-- <div class="col-lg-4"> -->
-            <!-- <div class="card"> -->
+          <div class="col-lg-4">
+            <div class="card">
               <!-- <img src="..." class="card-img-top" alt="..."> -->
-              <!-- <div class="card-body"> -->
-                <!-- <h5 class="card-title">Merk - ukuran</h5>
-                <p class="card-text">Harga</p> -->
-                <!-- <a href="#" class="btn btn-primary">Tokopedia</a>
-                <a href="#" class="btn btn-primary">Shopee</a> -->
-              <!-- </div> -->
-            <!-- </div> -->
-          <!-- </div> -->
+              <div class="card-body">
+                <h5 class="card-title">Merk - ukuran</h5>
+                <p class="card-text">Harga</p>
+                <a href="#" class="btn btn-primary">Tokopedia</a>
+                <a href="#" class="btn btn-primary">Shopee</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- card -->
+
+
 
 
     <!-- footer -->
@@ -130,32 +133,66 @@
     <!-- footer -->
 
 
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQzC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- <script src="data.json"></script> -->
     <script>
       $(document).ready(function() {
-        console.log('ok');
+        // $.getJSON('data.json', function(datas) {
+        //   console.log(datas);
+        // });
 
-        $.getJSON('data.json', function(datas) {
-          // console.log(datas.popok[0].harga);
-          let popok = datas.popok
-          // console.log(popok);
-          
-          for( let i = 0; i < popok.length; i++ ) {
-            // console.log(popok[i]);
-            $('.popok .row').append(`
-              <div class="col-lg-3">
-                <div class="card mb-4">
-                  <img src="#" class="card-img-top" alt="${popok[i].gambar}">
-                  <div class="card-body">
-                    <h5 class="card-title"> ${popok[i].merk} - ${popok[i].ukuran}</h5>
-                    <p class="card-text">Rp ${popok[i].harga}</p>
-                  </div>
-                </div>
-              </div>
-            `);
-          }
-        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // nopang
+        // let ar1 = ['M', 'O', 'C', 'H', 'I'];
+        // let ar2 = ['I','H','C','O','M','I','H','C','O','M'];
+        // let newArr = [];
+        // let li = '';
+        // for( let z = 1; z <= 2; z++ ) {
+        //   // console.log(z);
+        //   for( let i = ar1.length - 1; i >= 0; i-- ) {
+        //     newArr += [ar1[i]];
+        //   }
+        //   li = newArr;
+        // } 
+        // hasilArr = li.split('');
+        // // console.log(hasilArr);
+
+        // let input1 = 'MOCHI'; // 5
+        // let input2 = 'IHCOMIHCOM'; // 10
+        // console.log(parseInt(input1));
+
+
+        // let ar1 = ['M', 'O', 'C', 'H', 'I'];
+        // let ar2 = ['I','H','C','O','M','I','H','C','O','M']
+        // let lastAr1 = '';
+        // let lastAr2 = '';
+        // for( let q = 1; q <= ar2.length; q++ ) {
+        //   lastAr2 = q;
+        // }
+        // for( let w = 1; w <= ar1.length; w++ ) {
+        //   lastAr1 = w;
+        // }
+        // console.log(lastAr2);
+        // console.log(lastAr1);
+        // hasil = lastAr2 / lastAr1;
+
+        // console.log(hasil);
+
+
 
       });
     </script>

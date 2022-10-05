@@ -1,23 +1,41 @@
 {
-  "datas": {
-    "popok": {
-      "mamypokoM20": {
-        "merk": "MAMYPOKO",
-        "ukuran": "M20",
-        "harga": "35.000"
+    "popok": [
+      {
+        "merk": "popok1",
+        "gambar": "gambar1.jpg",
+        "ukuran": "XL",
+        "harga": "10.000"
+      },
+      {
+        "merk": "popok2",
+        "gambar": "gambar2.jpg",
+        "ukuran": "L",
+        "harga": "20.000"
+      },
+      {
+        "merk": "popok3",
+        "gambar": "gambar3.jpg",
+        "ukuran": "M",
+        "harga": "30.000"
+      },
+      {
+        "merk": "popok4",
+        "gambar": "gambar4.jpg",
+        "ukuran": "S",
+        "harga": "40.000"
       }
-    },
-    "lain2": {
-      "tisunice": {
+    ],
+    "lain2": [
+      {
         "merk": "Tisu Nice",
         "ukuran": "",
         "harga": "7.000"
       },
-      "kantongasi": {
+      {
         "merk": "Kantong Asi",
         "ukuran": "100ml & 120ml",
         "harga": "25.000"
       }
-    }
-  }
+    ]
+  
 }
