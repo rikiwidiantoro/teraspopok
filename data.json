@@ -3,7 +3,7 @@
       {
         "merk": "MAMYPOKO PEREKAT",
         "gambar": "mamypokoperekat-nbs44.jpeg",
-        "ukuran": "NewBornS44",
+        "ukuran": "NewBorn S44",
         "harga": "57.000"
       },
       {
@@ -20,9 +20,27 @@
       },
       {
         "merk": "MAMYPOKO PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M20",
+        "harga": "35.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
         "gambar": "mamypokopants-m34.jpeg",
         "ukuran": "M34",
         "harga": "49.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M50",
+        "harga": "70.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L20",
+        "harga": "40.000"
       },
       {
         "merk": "MAMYPOKO PANTS",
@@ -32,15 +50,321 @@
       },
       {
         "merk": "MAMYPOKO PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L44",
+        "harga": "70.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL20",
+        "harga": "45.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
         "gambar": "mamypokopants-xl26.jpeg",
         "ukuran": "XL26",
         "harga": "58.000"
       },
       {
         "merk": "MAMYPOKO PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL38",
+        "harga": "79.000"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
         "gambar": "mamypokopants-xxl24.jpeg",
         "ukuran": "XXL24",
         "harga": "60.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "S36+2",
+        "harga": "49.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "S64",
+        "harga": "82.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M34",
+        "harga": "49.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M58",
+        "harga": "86.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L30",
+        "harga": "49.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L52",
+        "harga": "86.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL26",
+        "harga": "58.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL42",
+        "harga": "85.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XXL24+2",
+        "harga": "60.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PEREKAT",
+        "gambar": ".jpeg",
+        "ukuran": "NewBorn S44",
+        "harga": "51.000"
+      },
+      {
+        "merk": "SWEETY SILVER PANTS JUMBO",
+        "gambar": ".jpeg",
+        "ukuran": "L54",
+        "harga": "99.000"
+      },
+      {
+        "merk": "SWEETY SILVER PANTS JUMBO",
+        "gambar": ".jpeg",
+        "ukuran": "XL44",
+        "harga": "99.000"
+      },
+      {
+        "merk": "SWEETY SILVER PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M30",
+        "harga": "49.000"
+      },
+      {
+        "merk": "SWEETY SILVER PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L28",
+        "harga": "49.500"
+      },
+      {
+        "merk": "SWEETY SILVER PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL26",
+        "harga": "60.000"
+      },
+      {
+        "merk": "SWEETY SILVER PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XXL24",
+        "harga": "62.000"
+      },
+      {
+        "merk": "MERRIES PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "S40",
+        "harga": "55.000"
+      },
+      {
+        "merk": "MERRIES PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M34",
+        "harga": "55.000"
+      },
+      {
+        "merk": "MERRIES PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M50",
+        "harga": "77.000"
+      },
+      {
+        "merk": "MERRIES PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L30",
+        "harga": "55.000"
+      },
+      {
+        "merk": "MERRIES PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L44",
+        "harga": "77.000"
+      },
+      {
+        "merk": "MERRIES PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL26",
+        "harga": "56.000"
+      },
+      {
+        "merk": "MERRIES PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL38",
+        "harga": "77.000"
+      },
+      {
+        "merk": "HAPPY NAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M34",
+        "harga": "48.000"
+      },
+      {
+        "merk": "HAPPY NAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L20",
+        "harga": "38.500"
+      },
+      {
+        "merk": "HAPPY NAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L30",
+        "harga": "48.000"
+      },
+      {
+        "merk": "HAPPY NAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL20",
+        "harga": "40.500"
+      },
+      {
+        "merk": "HAPPY NAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL26",
+        "harga": "48.000"
+      },
+      {
+        "merk": "HAPPY NAPPY PEREKAT",
+        "gambar": ".jpeg",
+        "ukuran": "S20",
+        "harga": "26.000"
+      },
+      {
+        "merk": "HAPPY NAPPY PEREKAT",
+        "gambar": ".jpeg",
+        "ukuran": "M20",
+        "harga": "27.000"
+      },
+      {
+        "merk": "BABY HAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M34+4",
+        "harga": "48.000"
+      },
+      {
+        "merk": "BABY HAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L30+4",
+        "harga": "48.000"
+      },
+      {
+        "merk": "BABY HAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL26+4",
+        "harga": "55.000"
+      },
+      {
+        "merk": "SMILE BABY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M30",
+        "harga": "34.000"
+      },
+      {
+        "merk": "SMILE BABY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L26",
+        "harga": "38.000"
+      },
+      {
+        "merk": "SMILE BABY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "XL24",
+        "harga": "38.000"
+      },
+      {
+        "merk": "SAYANGKU",
+        "gambar": ".jpeg",
+        "ukuran": "XL28",
+        "harga": "46.000"
+      },
+      {
+        "merk": "FITTI",
+        "gambar": ".jpeg",
+        "ukuran": "L28",
+        "harga": "42.000"
+      },
+      {
+        "merk": "MOMBABY",
+        "gambar": ".jpeg",
+        "ukuran": "XL26+4",
+        "harga": "44.000"
+      },
+      {
+        "merk": "MAMYLOVE",
+        "gambar": ".jpeg",
+        "ukuran": "M20",
+        "harga": "33.000"
+      },
+      {
+        "merk": "MAMYLOVE",
+        "gambar": ".jpeg",
+        "ukuran": "L20",
+        "harga": "36.000"
+      },
+      {
+        "merk": "MAMYLOVE",
+        "gambar": ".jpeg",
+        "ukuran": "XL20",
+        "harga": "40.000"
+      },
+      {
+        "merk": "FLUFFY",
+        "gambar": ".jpeg",
+        "ukuran": "M34, L30",
+        "harga": "46.000"
+      },
+      {
+        "merk": "POKANA",
+        "gambar": ".jpeg",
+        "ukuran": "M20",
+        "harga": "35.000"
+      },
+      {
+        "merk": "POKANA",
+        "gambar": ".jpeg",
+        "ukuran": "XL20",
+        "harga": "40.000"
+      },
+      {
+        "merk": "GOON",
+        "gambar": ".jpeg",
+        "ukuran": "M19",
+        "harga": "34.000"
+      },
+      {
+        "merk": "MAMAMIA",
+        "gambar": ".jpeg",
+        "ukuran": "L30",
+        "harga": "54.000"
+      },
+      {
+        "merk": "MAMAMIA",
+        "gambar": ".jpeg",
+        "ukuran": "XL26",
+        "harga": "51.000"
       }
     ],
     "lain2": [

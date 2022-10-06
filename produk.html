@@ -34,11 +34,18 @@
         </div>
       </div> -->
       <div class="row">
-        <div class="col-lg-6 d-flex flex-row bd-highlight">
+        <div class="col-lg-3">
           <button type="button" class="btn btn-outline-secondary btn-sm active" style="display: inline;">Semua Popok</button>
           <button type="button" style="display: inline;" class="btn btn-outline-secondary btn-sm mx-4">Selain Popok</button>
         </div>
-        <div class="col-lg-6 d-flex flex-row-reverse bd-highlight">
+        <div class="col-lg-4 offset-lg-1">
+          <div class="alert alert-warning alert-dismissible fade show" role="alert" style="padding: 8px 10px; font-size: 12px;">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Real Picture & Harga bisa berubah sewaktu-waktu!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="font-size: 7px; margin-top: -7px;"></button>
+          </div>
+          
+        </div>
+        <div class="col-lg-3 offset-lg-1 d-flex flex-row-reverse bd-highlight">
           <div class="dropdown" style="display: inline;">
             <button class="btn btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Merek Popok
@@ -47,7 +54,7 @@
               <li><a class="dropdown-item" href="#">Mamypoko Perekat</a></li>
               <li><a class="dropdown-item" href="#">Mamypoko Pants</a></li>
               <li><a class="dropdown-item" href="#">Mamypoko Minipack</a></li>
-              <li><a class="dropdown-item" href="#">Sweety Bronze</a></li>
+              <li><a class="dropdown-item" href="#">Sweety Bronze Pants</a></li>
               <li><a class="dropdown-item" href="#">Sweety Silver Pants</a></li>
               <li><a class="dropdown-item" href="#">Merries Pants</a></li>
               <li><a class="dropdown-item" href="#">Happy Nappy</a></li>
@@ -88,6 +95,32 @@
               <!-- </div> -->
             <!-- </div> -->
           <!-- </div> -->
+        </div>
+      </div>
+      
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </section>
@@ -153,6 +186,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script>
       $(document).ready(function() {
+
+
         console.log('ok');
 
         $.getJSON('data.json', function(datas) {
