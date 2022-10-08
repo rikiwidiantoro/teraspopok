@@ -1,0 +1,108 @@
+{
+    "semuapopok": [
+      {
+        "merk": "MAMYPOKO PEREKAT",
+        "slug": "mamypokoperekat",
+        "gambar": ".jpeg",
+        "ukuran": "NewBorn S44, M40"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "slug": "mamypokopants",
+        "gambar": ".jpeg",
+        "ukuran": "S40, M20, M34, M50, L20, L30, L44, XL20, XL26, XL38, XXL24"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "slug": "sweetypants",
+        "gambar": ".jpeg",
+        "ukuran": "S36+2 S64 M34 M58 L30 L52 XL26 XL42 XXL24+2"
+      }
+    ],
+    "popok": [
+      {
+        "merk": "MAMYPOKO PEREKAT",
+        "gambar": ".jpeg",
+        "ukuran": "NewBorn S44",
+        "harga": "57.000",
+        "slug": "mamypokoperekat"
+      },
+      {
+        "merk": "MAMYPOKO PEREKAT",
+        "gambar": ".jpeg",
+        "ukuran": "M40",
+        "harga": "62.000",
+        "slug": "mamypokoperekat"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "S40",
+        "harga": "49.000",
+        "slug": "mamypokopants"
+      },
+      {
+        "merk": "MAMYPOKO PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M20",
+        "harga": "35.000"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "S36+2",
+        "harga": "49.000",
+        "slug": "sweetypants"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "S64",
+        "harga": "82.000",
+        "slug": "sweetypants"
+      },
+      {
+        "merk": "SWEETY BRONZE PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M34",
+        "harga": "49.000",
+        "slug": "sweetypants"
+      },
+      {
+        "merk": "MERRIES PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "S40",
+        "harga": "55.000"
+      },
+      {
+        "merk": "HAPPY NAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "M34",
+        "harga": "48.000"
+      },
+      {
+        "merk": "HAPPY NAPPY PANTS",
+        "gambar": ".jpeg",
+        "ukuran": "L20",
+        "harga": "38.500"
+      }
+    ],
+    "lain2": [
+      {
+        "merk": "TISU NICE",
+        "ukuran": "",
+        "harga": "7.000"
+      },
+      {
+        "merk": "TISU PASEO",
+        "ukuran": "",
+        "harga": "11.000"
+      },
+      {
+        "merk": "KANTONG ASI",
+        "ukuran": "100ml & 120ml",
+        "harga": "25.000"
+      }
+    ]
+  
+}

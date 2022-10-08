@@ -1,0 +1,48 @@
+{
+  "popok": [
+    {
+      "mamypoko": [
+        {
+          "merk": "MAMYPOKO PEREKAT",
+          "gambar": "mamypokoperekat-nbs44.jpeg",
+          "ukuran": "NewBorn S44",
+          "harga": "57.000"
+        }
+      ]
+    },
+    {
+      "sweety": [
+        {
+          "merk": "SWEETY BRONZE PANTS",
+          "gambar": ".jpeg",
+          "ukuran": "S36+2",
+          "harga": "49.000"
+        }
+      ]
+    },
+    {
+      "merries": [
+        {
+          "merk": "MERRIES PANTS",
+          "gambar": ".jpeg",
+          "ukuran": "S40",
+          "harga": "55.000"
+        }
+      ]
+    },
+    {
+      "happynappy": [
+        {
+          "merk": "HAPPY NAPPY PANTS",
+          "gambar": ".jpeg",
+          "ukuran": "M34",
+          "harga": "48.000"
+        }
+      ]
+    },
+    {
+      
+    }
+
+  ]
+}

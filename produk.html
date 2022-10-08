@@ -99,7 +99,7 @@
       </div>
       
     </section>
-    <section>
+    <!-- <section>
       <div class="container">
         <div class="row">
           <div class="col">
@@ -123,8 +123,52 @@
           </div>
         </div>
       </div>
+    </section> -->
+    <!-- card -->
+
+    <!-- card -->
+    <section class="popok2">
+      <div class="container my-4">
+        <div class="row">
+          <!-- <div class="col-lg-4"> -->
+            <!-- <div class="card"> -->
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <!-- <div class="card-body"> -->
+                <!-- <h5 class="card-title">Merk - ukuran</h5>
+                <p class="card-text">Harga</p> -->
+                <!-- <a href="#" class="btn btn-primary">Tokopedia</a>
+                <a href="#" class="btn btn-primary">Shopee</a> -->
+              <!-- </div> -->
+            <!-- </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+      
     </section>
     <!-- card -->
+
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
 
 
     <!-- footer -->
@@ -190,26 +234,99 @@
 
         console.log('ok');
 
-        $.getJSON('data.json', function(datas) {
-          // console.log(datas.popok[0].harga);
-          let popok = datas.popok
-          // console.log(popok);
+        // $.getJSON('data.json', function(datas) {
+        //   // console.log(datas.popok[0].harga);
+        //   let popok = datas.popok
+        //   // console.log(popok);
           
-          for( let i = 0; i < popok.length; i++ ) {
+        //   for( let i = 0; i < popok.length; i++ ) {
+        //     // console.log(popok[i]);
+        //     $('.popok .row').append(`
+        //       <div class="col-lg-2">
+        //         <div class="card mb-4">
+        //           <img src="gambar/${popok[i].gambar}" class="card-img-top" alt="${popok[i].gambar}">
+        //           <div class="card-body">
+        //             <h5 class="card-title"> ${popok[i].merk}</h5>
+        //             <span class="card-text">Ukuran : ${popok[i].ukuran}</span><br>
+        //             <span class="card-text">Harga : Rp ${popok[i].harga}</span>
+        //           </div>
+        //         </div>
+        //       </div>
+        //     `);
+        //   }
+        // });
+        $.getJSON('datass.json', function(datas) {
+          // console.log(datas.popok[0].harga);
+          let popoks = datas.semuapopok;
+          // console.log(popok);
+
+          let kategori = datas.popok;
+          // console.log(kategori[0].merk);
+
+          // function detai() {
+          //   let kategori = datas.popok;
+          //   console.log(kategori[0].merk);
+          // }
+          // detai();
+
+          // for(let data of kategori) {
+          //   console.log(data.merk);
+          // }
+
+
+          
+          // for( let i = 0; i < popok.length; i++ ) {
+          let slugg = "";
+          for(let popok of popoks) {
             // console.log(popok[i]);
-            $('.popok .row').append(`
-              <div class="col-lg-2">
+            slugg = popok.slug;
+            $('.popok2 .row').append(`
+              <div class="col-lg-4">
                 <div class="card mb-4">
-                  <img src="gambar/${popok[i].gambar}" class="card-img-top" alt="${popok[i].gambar}">
+                  <img src="gambar/${popok.gambar}" class="card-img-top" alt="${popok.gambar}">
                   <div class="card-body">
-                    <h5 class="card-title"> ${popok[i].merk}</h5>
-                    <span class="card-text">Ukuran : ${popok[i].ukuran}</span><br>
-                    <span class="card-text">Harga : Rp ${popok[i].harga}</span>
+                    <h5 class="card-title"> ${popok.merk}</h5>
+                    <span class="card-text">Ukuran : ${popok.ukuran}</span><br>
+                    
+                    <button type="button" class="btn btn-primary btn-sm mt-3" data-bs-toggle="modal" data-bs-target="#${popok.slug}">
+                      Detail
+                    </button>
+
+                    <div class="modal fade" id="${popok.slug}" tabindex="-1" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5">${popok.merk}</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             `);
+
+            
           }
+          for(let data of kategori) {
+              console.log(slugg);
+              // console.log(data.slug);
+              if(data.slug === slugg) {
+                $('.popok2 .modal .modal-body').append(`
+                    <div class="card mb-4">
+                      <img src="gambar/${data.gambar}" class="card-img-top" alt="${data.gambar}">
+                      <div class="card-body">
+                        <h5 class="card-title"> ${data.merk}</h5>
+                        <span class="card-text">Ukuran : ${data.ukuran}</span>
+                      </div>
+                    </div>
+                `);
+              }
+            }
         });
 
       });
